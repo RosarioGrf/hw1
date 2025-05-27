@@ -1,0 +1,190 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.back-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background-color: #0070f3;
+  color: white;
+  padding: 8px 12px;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.back-button:hover {
+  background-color: #005ac1;
+}
+
+.pswforgot {
+  color: blue;
+  font-size: 0.7em;
+  display: block;
+  margin: 5px 0;
+}
+
+.link {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0.9em;
+}
+  
+.link a {
+  color: #0070f3;
+  cursor: pointer;
+  text-decoration: none;
+}
+  
+.hidden {
+  display: none;
+}
+
+.wrapper {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 80px 120px;
+}
+  
+.container {
+  background-color: white;
+  padding: 40px;
+  width: 350px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px lightgrey;
+  height: auto;
+}
+  
+h2 {
+  text-align: center;
+}
+
+label {
+  font-size: 0.7em;
+  color: grey;
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+  
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #0070f3;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+  
+input[type="submit"]:hover {
+  background-color: #005ac1;
+}
+.password-container {
+  position: relative;
+  width: 100%;
+}
+
+.occhio-password {
+  position: absolute;
+  opacity: 1;
+  top: 40%;
+  right: 10px;
+  cursor: pointer;
+}
+
+.occhio-password img {
+  width: 20px;
+  height: 20px;
+}
+
+.checkbox {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+  
+.checkbox input {
+  margin-right: 5px;
+}
+
+
+form span {
+    opacity: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+}
+
+.error{
+  display: block;
+  background-color: #e22134;
+  padding: 14px 14px 12px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 25px;
+  width: 100%;
+}
+
+.errorj span {
+    opacity: 1;
+    font-size: 14px;
+    color: #d01b2d;
+}
+
+  
+.pedice {
+  color: grey;
+  font-size: 0.7em;
+  margin-top: 10px;
+}
+  
+  
+.footer {
+  color: white;
+  font-size: 0.75em;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background: rgba(0, 0, 0, 0.3);
+}
+  
+.footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 4px;
+}
+ 
+.footer a:hover {
+  text-decoration: underline;
+}
+ 
+.footer-left, .footer-right {
+  display: flex;
+  flex-direction: column;
+}
+  
+.footer-right {
+  text-align: right;
+}
+  

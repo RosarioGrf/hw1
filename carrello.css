@@ -1,0 +1,146 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.cart-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.cart-items {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cart-items table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.cart-items th, .cart-items td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.cart-items img {
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  justify-content: center;
+}
+
+.quantity-controls button {
+  width: 30px;
+  height: 30px;
+}
+
+.quantity-controls .remove-item-btn,
+.quantity-controls .add-to-cart-btn {
+  background-color: #eee;
+  color: #333;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+}
+
+.quantity-controls .remove-item-btn:hover,
+.quantity-controls .add-to-cart-btn:hover {
+  background-color: #d6eaff;
+  color: #0066ff;
+}
+
+.cart-quantity {
+  min-width: 24px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  background: #f7f7f7;
+  border-radius: 6px;
+  padding: 2px 8px;
+  border: 1px solid #ddd;
+}
+
+.cart-summary {
+  margin-top: 30px;
+}
+
+
+.info-box {
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 15px;
+  border-left: 3px solid #ccc;
+}
+
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.total .shipping {
+  font-size: 14px;
+  font-weight: normal;
+  color: #666;
+}
+
+.free {
+  color: green;
+}
+
+.cart-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.cart-actions button {
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.cart-actions .continue {
+  background-color: #eee;
+}
+
+.cart-actions .paypal {
+  background-color: #ffc439;
+  color: black;
+}
+
+.cart-actions .checkout {
+  background-color: #0066ff;
+  color: white;
+}
+
