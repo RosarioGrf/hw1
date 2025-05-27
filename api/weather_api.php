@@ -1,6 +1,6 @@
 <?php
     // weather_api.php
-    $apiKey = '7c15ad8a5a0e46a8b62110903251204';
+    $apiKey = 'secret';
 
     $lat = isset($_GET['lat']) ? $_GET['lat'] : '';
     $lng = isset($_GET['lng']) ? $_GET['lng'] : '';
