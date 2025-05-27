@@ -3,7 +3,7 @@
     if (isset($_GET['city'])){
         $city = urlencode($_GET['city']);
 
-        $bingMapsKey = 'ApwhowTOlOwc6jfo5zPH8klAHAy67rO45yu5zJsA-uaIYH8dMnk7xQHQxPfeFUpF';
+        $bingMapsKey = 'secret';
         $url = "http://dev.virtualearth.net/REST/v1/Locations?query=$city&key=$bingMapsKey";
 
         $curl = curl_init();
